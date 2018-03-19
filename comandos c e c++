@@ -4,7 +4,17 @@ stdio bliblioteca basica
 #include <stdlib.h>
 
 -------------------------------------------
+
+void -> vazio nao retorna nada
+
+-------------------------------------------
 printf("hello");
+
+-----------------------------------------
+inteiro mostrar
+
+int a= 5;
+printf("%d",a);
 
 
 ----------------------------------------------
