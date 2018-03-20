@@ -23,10 +23,16 @@ tipos mostrar
 
 int a= 5;
 printf("%d",a);
+scanf("%d",&a);
 
 float a= 5;
 printf("%f",a);
      %.2f", a);numeros apos virgula
+scanf("%f",&b);
+
+char a= a;
+printf("%c",a);  
+scanf(" %c",&c);   sempre o espaço antes no char
 -------------------------------------------
 \n pula linha pode ser usado com variaveis ou sozinho
 
