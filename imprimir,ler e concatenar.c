@@ -1,13 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
+//Escrevendo em Português
+#include <locale.h>
 
 void main(){
 
-    int a = 5;
-    int b = 10;
+    setlocale(LC_ALL, "Portuguese");
 
-    printf("%d",a);
-	printf("huruuu");
+    int a = 5, b;
+
+    printf("Valor de a é :%d",a);
+    printf("\n");
+    scanf("%d",&b);
+    printf("Valor de b é :%d",b);
+	printf("\nhuruuu\n");
 	system("pause");
 }
 

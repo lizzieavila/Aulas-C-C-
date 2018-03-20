@@ -3,6 +3,14 @@ stdio bliblioteca basica
 #include <stdio.h>
 #include <stdlib.h>
 
+------------------------------------------
+utf 8
+
+#include <locale.h>
+
+void main(){
+setlocale(LC_ALL, "Portuguese");
+}
 -------------------------------------------
 
 void -> vazio nao retorna nada
@@ -15,7 +23,10 @@ inteiro mostrar
 
 int a= 5;
 printf("%d",a);
+-------------------------------------------
+\n pula linha pode ser usado com variaveis ou sozinho
 
+printf("\n");
 
 ----------------------------------------------
 
