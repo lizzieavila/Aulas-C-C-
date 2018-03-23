@@ -33,6 +33,12 @@ scanf("%f",&b);
 char a= a;
 printf("%c",a);  
 scanf(" %c",&c);   sempre o espaço antes no char
+
+#include <stdbool.h>
+//true 1 false 0//
+bool d;
+d = true;
+printf("\nO valor de d é: %d", d);
 -------------------------------------------
 \n pula linha pode ser usado com variaveis ou sozinho
 
