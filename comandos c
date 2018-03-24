@@ -13,7 +13,7 @@ setlocale(LC_ALL, "Portuguese");
 }
 -------------------------------------------
 
-void -> vazio nao retorna nada
+void  //vazio nao retorna nada
 
 -------------------------------------------
 printf("hello");
@@ -27,18 +27,19 @@ scanf("%d",&a);
 
 float a= 5;
 printf("%f",a);
-     %.2f", a);numeros apos virgula
+     %.2f", a);//numeros apos virgula
 scanf("%f",&b);
 
 char a= a;
 printf("%c",a);  
-scanf(" %c",&c);   sempre o espaço antes no char
+scanf(" %c",&c);   //sempre o espaço antes no char
 
 #include <stdbool.h>
 //true 1 false 0//
 bool d;
 d = true;
 printf("\nO valor de d é: %d", d);
+scanf("%d",&d); //e passado para int
 -------------------------------------------
 \n pula linha pode ser usado com variaveis ou sozinho
 
@@ -55,18 +56,14 @@ int main(){
 	
 }
 -------------------------------------------
+condicionais
 
-cout<<"hello"<<;
-return 0 ;
+if
+else
+else if
 
--------------------------------------------
-coments
-//
-/* */
--------------------------------------------
-endl- pula linha
+=========================================
 
--------------------------------------------
-using namespace std
 
-------------------------------------------
+
+
