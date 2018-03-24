@@ -61,9 +61,15 @@ condicionais
 if
 else
 else if
+======================
+&& e
+|| ou
 
 =========================================
+rand nao repede valor
+srand pode repedir aleatoria a cada execuçaõ
+http://linguagemc.com.br/valores-aleatorios-em-c-com-a-funcao-rand/
 
-
+==============================================
 
 
