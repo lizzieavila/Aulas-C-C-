@@ -10,5 +10,6 @@ void main(){
 
  printf("%d",TAM);
 
+
  system("pause");
 }
