@@ -5,12 +5,21 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    int a = 5;
+    int a = 5,opcao = 2;
 
     if(a % 2 == 1){
         printf("ÍMPAR");
     }else{
         printf("PAR");
+    }
+    printf("\n");
+
+    if(opcao == 1 ){
+       printf("OPÇÃO 1");
+    }else if(opcao == 2){
+        printf("OPÇÃO 2");
+    }else{
+        printf("OUTRO OPÇÃO");
     }
     printf("\n");
     system("pause");
