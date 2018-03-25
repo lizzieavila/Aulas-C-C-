@@ -18,6 +18,29 @@ void  //vazio nao retorna nada
 -------------------------------------------
 printf("hello");
 
+scanf();
+
+==============================================
+laços
+
+while //compara antes de fazer
+while (condição)
+{
+Instrução ou bloco de instruções;
+}
+
+
+do while //executa ao menos uma vez
+do{
+	instrucao
+}while(instrução);
+
+
+for
+for(valor_inicial; condição_final; valor_incremento)
+ {
+    instruções;
+ }
 -----------------------------------------
 tipos mostrar
 
