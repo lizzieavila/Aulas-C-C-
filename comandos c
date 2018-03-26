@@ -68,13 +68,13 @@ scanf("%d",&d); //e passado para int
 
 printf("\n");
 
-----------------------------------------------
-
-#include <iostream>
 
 ---------------------------------------------
 main principal
 
+void main(){
+	
+}
 int main(){
 	
 }
@@ -94,5 +94,15 @@ srand pode repedir aleatoria a cada execuçaõ
 http://linguagemc.com.br/valores-aleatorios-em-c-com-a-funcao-rand/
 
 ==============================================
+char palavra[255];
 
+  printf("Digite uma palavra:");
+
+  setbuf(stdin,0);
+  fgets(palavra,255,stdin);
+
+  printf("%s",palavra);
+ =================================================
+ matrizes
+ http://linguagemc.com.br/matriz-em-c/ 
 
